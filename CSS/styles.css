@@ -720,15 +720,15 @@ header .navbar {
     font-weight: var(--font-waight-medium);
      } 
      
-    .navbar .nav-menu .nav-link:hover {
+  .navbar .nav-menu .nav-link:hover {
   color: var(--white-color);
        }
 
        /*-------------hero section-------------*/
-       .hero-section {
-        height: 850px;
-        align-items: center;
-       }
+    .hero-section {
+      height: 850px;
+      align-items: center;
+      }
     
        .hero-section .section-content {
         gap: 50px;
@@ -737,11 +737,11 @@ header .navbar {
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .hero-details .small-lett {
-    color: var(--secondary-color);
-  font-size: 25px;
-  margin-right: 210px;
-  margin-bottom: -16px;
+  .hero-details .small-lett {
+  color: var(--secondary-color);
+  font-size: 20px;
+  padding-right: 250px;
+  margin-bottom: 0px; /* removed fixed margin */
 }
 
 .hero-details .title {
@@ -752,8 +752,9 @@ header .navbar {
 /* HERO BUTTONS */
 .hero-button {
   display: flex;
-  margin-left: 150px;
-  justify-content: center;
+  justify-content: center; /* center buttons horizontally */
+  padding-left: 170px;
+  margin-top: 0px;
   gap: 10px;
 }
 
